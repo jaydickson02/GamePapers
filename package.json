@@ -1,0 +1,28 @@
+{
+  "name": "wallpaper-changer-steam",
+  "version": "1.0.0",
+  "description": "App that changes the background depending on the current game being played",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydickson02/GameWallpaperChanger.git"
+  },
+  "author": "Jay Dickson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jaydickson02/GameWallpaperChanger/issues"
+  },
+  "homepage": "https://github.com/jaydickson02/GameWallpaperChanger#readme",
+  "dependencies": {
+    "google-images": "^2.1.0",
+    "image-downloader": "^3.4.1",
+    "steamapi": "^2.0.2",
+    "wallpaper": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.4"
+  }
+}
