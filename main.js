@@ -11,14 +11,14 @@ var username = 'jaymonkey02';
     // Create the browser window.
     win = new BrowserWindow({
       width: 200,
-      height: 400
+      height: 200
     })
 
     // and load the index.html of the app.
-    win.loadFile('index.html');
+    win.loadFile('./app/index.html');
 
     //Open developer console
-    win.webContents.openDevTools()
+    //win.webContents.openDevTools()
 
     // Emitted when the window is closed.
     win.on('closed', () => {
